@@ -1,0 +1,100 @@
+
+.map {
+    width: 835px;
+    /* border: 1px solid red; */
+    padding: 22px;
+}
+
+
+.chosen {
+    color: white;
+}
+.mapcontainer {
+    position: relative;
+
+}
+.mapim {
+    /* width: 80%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+svg {
+    /* position: relative; */
+    height: auto;
+    width: 83%;
+}
+
+.showvoted {
+    background: #131726;
+    border: 1px solid #212842;
+    color: white;
+    /* border: 2px solid red; */
+    height:65px;
+    width: 250px;
+    padding: 10px 10px;
+    position: absolute;
+    border-radius: 6px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.flashhead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.flashhead h3 {
+    margin-block: 0;
+    /* border: 1px solid red; */
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+.flashhead p {
+    margin-block: 0;
+    /* border: 1px solid red; */
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #E5B805;
+    cursor: pointer
+}
+.flashhead p a {
+    text-decoration: none;
+    color: #E5B805
+}
+.statewinner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.statewinner p {
+    margin-bottom: 0;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #fff
+}
+.winname {
+    text-transform: capitalize; 
+}
+.winparty {
+    text-transform: uppercase;
+}
+.wincount {
+
+}

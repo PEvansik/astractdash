@@ -1,0 +1,76 @@
+
+.state {
+    /* min-width: 335px; */
+    /* height: 610px; */
+}
+.stateres {
+    color: #fff;
+    padding-block: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+}
+
+.statetable {
+    /* border: 1px solid red; */
+    border-collapse: collapse;
+    /* margin: 25px 0; */
+    min-width: 335px;
+    /* overflow: hidden; */
+    border: 1px solid red;
+
+}
+
+thead {
+    border: 1px solid red; 
+    height: 34px;
+
+}
+thead tr {
+    background: #111421;
+    
+}
+tbody {
+    background-color: #1E2748;
+}
+th {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    text-align: left;
+    font-size: 14px;
+    line-height: 20px;
+    border: 1px solid red;
+    color: #FFFFFF;
+}
+th, td {
+    padding: 7px;
+}
+.statetable tbody tr {
+    
+    border-bottom: 1px solid #C6C7CB11;
+}
+.statename {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+
+    text-decoration-line: underline;
+    
+    color: #FFFFFF;
+}
+.partynum {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+
+    
+    color: #FFFFFF;
+}

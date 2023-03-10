@@ -1,0 +1,171 @@
+
+
+.graph {
+
+}
+.president {
+    padding-block: 10px;
+    border: 1px solid #C6C7CB11;
+}
+
+.graph h3 {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    /* padding: 10px; */
+    margin: 0;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+
+.toolholder {
+    display: flex;
+}
+.tool {
+    /* remove when you recive props */
+    /* width: 50%; */
+}
+.bar {
+    height: 10px;
+    /* remove when you recive props */
+    /* background-color: #64ccff; */
+}
+.tip {
+    display: flex;
+    align-items: flex-end;
+    /* remove when you recive props */
+    /* margin-left: 5%; */
+    justify-content: flex-end;
+    width: 88px;
+    padding-top: 7px;
+    padding-bottom: 3px;
+    padding-inline: 3px;
+    background-color: #fff;
+    clip-path: polygon(
+        0 0,
+        0% 5%,
+        45% 5%,
+        50% 0,
+        55% 5%,
+        100% 5%,
+        100% 100%,
+        0% 100%,
+        0% 5%
+    );
+}
+.tipcont {
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.wintext {
+    padding-block: 3px;
+}
+.wintext h3 {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 17px;
+    margin: 0;
+    color: #64CCFF;
+    text-align: center;
+}
+.wintext p {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    
+    color: #585858;
+}
+.winnerimg {
+    width: 38px;
+    height: 40px;
+}
+.winnerimg img {
+    width: 100%;
+}
+.senatehouse {
+    margin-block: 20px;
+}
+.senate,
+.house {
+    border: 1px solid #C6C7CB11;
+    border-radius: 5px;
+    padding: 5px;
+    margin-block: 20px;
+}
+.senatechat,
+.housechat {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    color: #C6C7CB99;
+    ;
+}
+
+
+@media screen and (width > 700px) {
+    
+    .bar {
+        height: 10px;
+        background-color: #64ccff;
+    }
+    
+    .tip {
+        margin-top: 2px;
+        width: 190.67px;
+        height: 64px;
+        padding-top: 2px;
+        align-items: center;
+        justify-content: center;
+        clip-path: polygon(
+            0 0,
+            0% 5%,
+            47% 5%,
+            50% 0,
+            53% 5%,
+            100% 5%,
+            100% 100%,
+            0% 100%,
+            0% 5%
+        );
+    }
+
+    .tipcont {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .wintext h3 {
+        text-align: left;
+    }
+    .wintext p{
+        flex-direction: row;
+    }
+}
+
+@media screen and (width > 800px) {
+    .senatehouse {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .senate,
+    .house {
+        width: 45%;
+    }
+}
