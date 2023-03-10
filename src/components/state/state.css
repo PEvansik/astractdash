@@ -9,7 +9,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .statetable {
@@ -17,13 +17,14 @@
     border-collapse: collapse;
     /* margin: 25px 0; */
     min-width: 335px;
+    border-radius: 5px;
     /* overflow: hidden; */
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
 }
 
 thead {
-    border: 1px solid red; 
+    /* border: 1px solid red;  */
     height: 34px;
 
 }
@@ -41,7 +42,7 @@ th {
     text-align: left;
     font-size: 14px;
     line-height: 20px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     color: #FFFFFF;
 }
 th, td {
