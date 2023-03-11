@@ -1,0 +1,104 @@
+[
+    [
+        {
+            "state_name":"ABIA",
+            "political_party_name":"Labour Party",
+            "candidate_votes":6010
+        },
+        {
+            "state_name":"ABIA",
+            "political_party_name":"People's Democratic Party",
+            "candidate_votes":200
+        },
+        {
+            "state_name":"ABIA",
+            "political_party_name":"All Progressive Congress",
+            "candidate_votes":40
+        }
+    ],
+    [
+        {
+            "state_name":"ADAMAWA",
+            "political_party_name":"People's Democratic Party",
+            "candidate_votes":6000
+        },
+        {
+            "state_name":"ADAMAWA",
+            "political_party_name":"Labour Party",
+            "candidate_votes":4000
+        },
+        {
+            "state_name":"ADAMAWA",
+            "political_party_name":"All Progressive Congress",
+            "candidate_votes":2000
+        }
+    ],
+    [
+        {
+            "state_name":"ANAMBRA",
+            "political_party_name":"Labour Party",
+            "candidate_votes":30000
+        },
+        {
+            "state_name":"ANAMBRA",
+            "political_party_name":"All Progressive Congress",
+            "candidate_votes":1
+        },
+        {
+            "state_name":"ANAMBRA",
+            "political_party_name":"People's Democratic Party",
+            "candidate_votes":0
+        }
+    ],
+    [
+        {
+            "state_name":"CROSS RIVER",
+            "political_party_name":"Labour Party",
+            "candidate_votes":90900
+        },
+        {
+            "state_name":"CROSS RIVER",
+            "political_party_name":"People's Democratic Party",
+            "candidate_votes":9
+        },
+        {
+            "state_name":"CROSS RIVER",
+            "political_party_name":"All Progressive Congress",
+            "candidate_votes":9
+        }
+    ],
+    [
+        {
+            "state_name":"LAGOS",
+            "political_party_name":"Labour Party",
+            "candidate_votes":220
+        },
+        {
+            "state_name":"LAGOS",
+            "political_party_name":"All Progressive Congress",
+            "candidate_votes":74
+        },
+        {
+            "state_name":"LAGOS",
+            "political_party_name":"People's Democratic Party",
+            "candidate_votes":6
+        }
+    ],
+    [
+        {
+            "state_name":"RIVERS",
+            "political_party_name":"Labour Party",
+            "candidate_votes":323
+        },
+        {
+            "state_name":"RIVERS",
+            "political_party_name":"People's Democratic Party",
+            "candidate_votes":5
+        },
+        {
+            "state_name":"RIVERS",
+            "political_party_name":"All Progressive Congress",
+            "candidate_votes":1
+        }
+    ]
+]

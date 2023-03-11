@@ -16,6 +16,7 @@ const Stateres = () => {
                 const response = await api.get('/elections/candidate-total-votes?type=state_result',{
                     signal: controller.signal
                 })
+                console.log(response.data)
                 console.log('fetching')
                 setStatesData(Object.entries(response.data))
                 
@@ -32,6 +33,7 @@ const Stateres = () => {
 
     }, [])
 
+    console.log(statesData)
 
 
  
@@ -55,7 +57,7 @@ const Stateres = () => {
                         <tr key={state[0]}>
                             <td className='statename'>{state[0]}</td>
                             {state[1]
-                                .sort((a, b) => (a.political_party_name.toUpperCase() > b.political_party_name.toUpperCase()) ? -1 : 1)
+                                .sort((a, b) => (a.political_party_name.toUpperCase() > b.political_party_name.toUpperCase()) ? 1 : -1)
                                 .map(item => <td className='partynum'>{item.candidate_votes}</td>)
                             }
                             <td className='statelead'></td>
